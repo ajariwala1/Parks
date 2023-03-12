@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1862A029BD375300D73653 /* ParksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18629F29BD375300D73653 /* ParksViewModel.swift */; };
 		ACD36B3229B9446B003ADFDA /* ParksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B3129B9446B003ADFDA /* ParksApp.swift */; };
-		ACD36B3429B9446B003ADFDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B3329B9446B003ADFDA /* ContentView.swift */; };
+		ACD36B3429B9446B003ADFDA /* Parks.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B3329B9446B003ADFDA /* Parks.swift */; };
 		ACD36B3629B9446C003ADFDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD36B3529B9446C003ADFDA /* Assets.xcassets */; };
 		ACD36B3929B9446C003ADFDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD36B3829B9446C003ADFDA /* Preview Assets.xcassets */; };
+		ACD36B4129B944A3003ADFDA /* ParkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B4029B944A3003ADFDA /* ParkModel.swift */; };
+		ACD36B4429B94637003ADFDA /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B4329B94637003ADFDA /* ContactModel.swift */; };
+		ACD36B4629B94651003ADFDA /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B4529B94651003ADFDA /* AddressModel.swift */; };
+		ACD36B4829B9465C003ADFDA /* ParkImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B4729B9465C003ADFDA /* ParkImageModel.swift */; };
+		ACD36B4A29B94743003ADFDA /* ParkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B4929B94743003ADFDA /* ParkDetail.swift */; };
+		ACD36B4C29B9482A003ADFDA /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B4B29B9482A003ADFDA /* AddressView.swift */; };
+		ACD36B4E29B948BC003ADFDA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B4D29B948BC003ADFDA /* MapView.swift */; };
+		ACD36B5029B94996003ADFDA /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B4F29B94996003ADFDA /* ContactView.swift */; };
+		ACD36B5229B94A8C003ADFDA /* ImageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD36B5129B94A8C003ADFDA /* ImageCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC18629F29BD375300D73653 /* ParksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksViewModel.swift; sourceTree = "<group>"; };
 		ACD36B2E29B9446B003ADFDA /* Parks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD36B3129B9446B003ADFDA /* ParksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksApp.swift; sourceTree = "<group>"; };
-		ACD36B3329B9446B003ADFDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACD36B3329B9446B003ADFDA /* Parks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parks.swift; sourceTree = "<group>"; };
 		ACD36B3529B9446C003ADFDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD36B3829B9446C003ADFDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACD36B4029B944A3003ADFDA /* ParkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkModel.swift; sourceTree = "<group>"; };
+		ACD36B4329B94637003ADFDA /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		ACD36B4529B94651003ADFDA /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		ACD36B4729B9465C003ADFDA /* ParkImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkImageModel.swift; sourceTree = "<group>"; };
+		ACD36B4929B94743003ADFDA /* ParkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetail.swift; sourceTree = "<group>"; };
+		ACD36B4B29B9482A003ADFDA /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		ACD36B4D29B948BC003ADFDA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		ACD36B4F29B94996003ADFDA /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		ACD36B5129B94A8C003ADFDA /* ImageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC1862A129BD4AA500D73653 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AC18629F29BD375300D73653 /* ParksViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		ACD36B2529B9446B003ADFDA = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				ACD36B3129B9446B003ADFDA /* ParksApp.swift */,
-				ACD36B3329B9446B003ADFDA /* ContentView.swift */,
+				AC1862A129BD4AA500D73653 /* ViewModels */,
+				ACD36B4229B944A7003ADFDA /* Models */,
+				ACD36B3F29B94492003ADFDA /* Views */,
 				ACD36B3529B9446C003ADFDA /* Assets.xcassets */,
 				ACD36B3729B9446C003ADFDA /* Preview Content */,
 			);
@@ -65,6 +95,30 @@
 				ACD36B3829B9446C003ADFDA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACD36B3F29B94492003ADFDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACD36B3329B9446B003ADFDA /* Parks.swift */,
+				ACD36B4929B94743003ADFDA /* ParkDetail.swift */,
+				ACD36B4B29B9482A003ADFDA /* AddressView.swift */,
+				ACD36B4D29B948BC003ADFDA /* MapView.swift */,
+				ACD36B4F29B94996003ADFDA /* ContactView.swift */,
+				ACD36B5129B94A8C003ADFDA /* ImageCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACD36B4229B944A7003ADFDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACD36B4029B944A3003ADFDA /* ParkModel.swift */,
+				ACD36B4329B94637003ADFDA /* ContactModel.swift */,
+				ACD36B4529B94651003ADFDA /* AddressModel.swift */,
+				ACD36B4729B9465C003ADFDA /* ParkImageModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD36B3429B9446B003ADFDA /* ContentView.swift in Sources */,
+				ACD36B4A29B94743003ADFDA /* ParkDetail.swift in Sources */,
+				ACD36B3429B9446B003ADFDA /* Parks.swift in Sources */,
+				ACD36B4129B944A3003ADFDA /* ParkModel.swift in Sources */,
+				ACD36B5029B94996003ADFDA /* ContactView.swift in Sources */,
+				ACD36B4429B94637003ADFDA /* ContactModel.swift in Sources */,
 				ACD36B3229B9446B003ADFDA /* ParksApp.swift in Sources */,
+				ACD36B4C29B9482A003ADFDA /* AddressView.swift in Sources */,
+				ACD36B4629B94651003ADFDA /* AddressModel.swift in Sources */,
+				AC1862A029BD375300D73653 /* ParksViewModel.swift in Sources */,
+				ACD36B4E29B948BC003ADFDA /* MapView.swift in Sources */,
+				ACD36B4829B9465C003ADFDA /* ParkImageModel.swift in Sources */,
+				ACD36B5229B94A8C003ADFDA /* ImageCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Parks/Preview Content\"";
+				DEVELOPMENT_TEAM = JA95FP3USP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Parks/Preview Content\"";
+				DEVELOPMENT_TEAM = JA95FP3USP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
